@@ -1,0 +1,17 @@
+[
+  {
+	"nama":"Andre",
+	"umur":32,
+	"nrp":"12111077",
+	"lulus":true,
+	"hobby":[
+		"coding",
+		"gaming"
+	],
+	"Pembimbing":{
+		"pembimbing1":"Hendra",
+		"pembimbing2":"Erik"
+	}
+  }
+
+]
