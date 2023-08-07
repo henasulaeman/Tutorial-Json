@@ -1,21 +1,21 @@
 {
 	"menu":[
 		{
-			"kategori":"Donuts",
+			"kategori":"donuts",
 			"nama":"Alcapone",
 			"deskripsi":"Donut dipped in white chocolate and topped with sliced toasted almonds.",
 			"harga":10000,
 			"gambar":"Alcapone.jpg"
 		},
 		{
-			"kategori":"Donuts",
+			"kategori":"donuts",
 			"nama":"Avocado Dicaprio",
 			"deskripsi":"Donut filled with avocado cream, dipped in avocado chocolate, and garnished with dark chocolate flakes.",
 			"harga":14000,
 			"gambar":"Avocado-Dicaprio.jpg"
 		},
 		{
-			"kategori":"Donuts",
+			"kategori":"donuts",
 			"nama":"Berry Spears",
 			"deskripsi":"Donut filled with whipped cream cheese, dipped in strawberry jam, and garnished with white chocolate flakes.",
 			"harga":15000,
