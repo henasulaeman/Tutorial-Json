@@ -16,6 +16,7 @@ function tampilkan_semua_menu() {
 	
 	});
 }
+
 tampilkan_semua_menu();
 
 // untuk aktif dan menon aktifkan class active pada menu

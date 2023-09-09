@@ -37,10 +37,16 @@ $mahasiswa = $db->fetchAll(PDO::FETCH_ASSOC);
 
 //var_dump($mahasiswa);
 
+//json_encode Untuk merubah array ke json
 $data = json_encode($mahasiswa);
+ echo $data;
 
-echo $data;
 
+// $data2 = json_decode($data,true); // Merubah json ke array dengan fungsi json_decode(), true bertujuan agar menampilkan datanya menggunakan kurung kurawal array
+
+// foreach ($data2 as $row) {
+// 	echo $row['nama']."<br>";
+// }
 
 
 

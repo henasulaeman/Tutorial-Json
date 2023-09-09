@@ -1,14 +1,8 @@
 <?php
-	$data = file_get_contents("data-donat.json");
 
-	// Merubah Json menjadi array menggunakan json_dcode
-	$menu = json_decode($data,true);
+ // $data_film= file_get_contents('http://www.omdbapi.com/?apikey=a777ea9b0');
 
-	$menu = $menu['menu'];
-	// Contoh memanggil berdasarkan index
-	//var_dump($menu["menu"][0]["nama"]);
-
-
+ // echo $data_film;
 ?>
 <!doctype html>
 <html lang="en">
@@ -34,10 +28,9 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-					<a class="nav-item nav-link active" href="#">All Menu <span class="sr-only">(current)</span></a>
-					<a class="nav-item nav-link" href="#">Features</a>
-					<a class="nav-item nav-link" href="#">Pricing</a>
-					<a class="nav-item nav-link disabled" href="#">Disabled</a>
+					<a class="nav-item nav-link active" href="#">All Film</span>
+					<a class="nav-item nav-link" href="#">Film Asing</a>
+					<a class="nav-item nav-link" href="#">Film Indonesia</a>
 				</div>
 			</div>
 		</div>
@@ -46,38 +39,36 @@
 	<div class="container">
 		<div class="row mt-3">
 			<div class="col">
-				<h1>All Menu</h1>
+				<h1>Search</h1>
 			</div>
 		</div>
 
-		<div class="row">
-
-		<?php foreach ($menu as $row) {
-			
-		?>
-			<div class="col-md-4">
-				<div class="card mb-3" >
-					<img class="card-img-top" src="gambar/<?php echo $row["gambar"] ?>" alt="Card image cap">
-					<div class="card-body">
-						<h5 class="card-title"><?php echo $row["nama"] ?></h5>
-						<p class="card-text"><?php echo $row["deskripsi"] ?></p>
-						<p class="card-text"><?php echo "Rp".number_format($row["harga"])  ?></p>
-						<a href="#" class="btn btn-primary">Pesan</a>
-					</div>
-				</div>
+		<div class="row" id="daftar-menu">
+			<div class="input-group mb-3">
+			  <input type="text" id="search-input" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+			  <div class="input-group-append dark">
+			    <button class="btn btn-outline-secondary btn btn-dark" type="button" id="search-button">Search</button>
+			  </div>
 			</div>
-			<!-- End col-md-4 -->
-	     <?php }?>
+			
 		</div> 
+		<hr>
+
+		<div class="row" id="movie-list">
+			
+		</div>
+
+
 		<!-- End Row -->
 	</div>
 	
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/script-omdb.js"></script>
 </body>
 </html>
