@@ -1,0 +1,34 @@
+[
+    {
+        "nama":"Hena Sulaeman",
+        "umur": 30,
+        "nrp":"12111077",
+        "lulus": true,
+        "hobby": [
+            "coding",
+            "gaming"
+        ],
+        "pembimbing":{
+            "pembimbing1": "Doddy",
+            "Pembimbing2":"Hendro"
+        }
+    
+    },
+    
+    {
+        "nama":"Nayla",
+        "umur": 20,
+        "nrp":"12111077",
+        "lulus": true,
+        "hobby": [
+            "coding",
+            "gaming"
+        ],
+        "pembimbing":{
+            "pembimbing1": "Doddy",
+            "Pembimbing2":"Hendro"
+        }
+    
+    }
+
+]
