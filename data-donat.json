@@ -1,92 +1,98 @@
-{
-	"menu":[
-		{
-			"kategori":"donuts",
-			"nama":"Alcapone",
-			"deskripsi":"Donut dipped in white chocolate and topped with sliced toasted almonds.",
-			"harga":10000,
-			"gambar":"Alcapone.jpg"
-		},
-		{
-			"kategori":"donuts",
-			"nama":"Avocado Dicaprio",
-			"deskripsi":"Donut filled with avocado cream, dipped in avocado chocolate, and garnished with dark chocolate flakes.",
-			"harga":14000,
-			"gambar":"Avocado-Dicaprio.jpg"
-		},
-		{
-			"kategori":"donuts",
-			"nama":"Berry Spears",
-			"deskripsi":"Donut filled with whipped cream cheese, dipped in strawberry jam, and garnished with white chocolate flakes.",
-			"harga":15000,
-			"gambar":"Berry-Spears.jpg"
-		},
-		{
-			"kategori":"jclub",
-			"nama":"Cheezy Rich",
-			"deskripsi":"Sweet donut sandwich featuring whipped cream cheese and sliced cheese filling, topped with whipped cream and shredded cheese.",
-			"harga":17000,
-			"gambar":"Cheezy-Rich.jpg"
-		},
-		{
-			"kategori":"jclub",
-			"nama":"Chicken Salami",
-			"deskripsi":"Savory donut sandwich featuring smoked chicken salami with mayonnaise, tomato sauce, fresh lettuce, sliced cheese, and sauteed zucchinis.",
-			"harga":10000,
-			"gambar":"Chicken-Salami.jpg"
-		},
-		{
-			"kategori":"jclub",
-			"nama":"Katsu",
-			"deskripsi":"Savory donut sandwich featuring crunchy fried chicken katsu, fresh lettuce, fresh tomatoes, and barbecue sauce.",
-			"harga":10000,
-			"gambar":"Katsu.jpg"
-		}
+[
+	{
+		"menu":[
+			
+			{
+				"kategori":"donuts",
+				"nama":"Alcapone",
+				"deskripsi":"Donut dipped in white chocolate and topped with sliced toasted almonds.",
+				"harga":10000,
+				"gambar":"Alcapone.jpg"
+			},
+			{
+				"kategori":"donuts",
+				"nama":"Avocado Dicaprio",
+				"deskripsi":"Donut filled with avocado cream, dipped in avocado chocolate, and garnished with dark chocolate flakes.",
+				"harga":14000,
+				"gambar":"Avocado-Dicaprio.jpg"
+			},
+			{
+				"kategori":"donuts",
+				"nama":"Berry Spears",
+				"deskripsi":"Donut filled with whipped cream cheese, dipped in strawberry jam, and garnished with white chocolate flakes.",
+				"harga":15000,
+				"gambar":"Berry-Spears.jpg"
+			},
+			{
+				"kategori":"jclub",
+				"nama":"Cheezy Rich",
+				"deskripsi":"Sweet donut sandwich featuring whipped cream cheese and sliced cheese filling, topped with whipped cream and shredded cheese.",
+				"harga":17000,
+				"gambar":"Cheezy-Rich.jpg"
+			},
+			{
+				"kategori":"jclub",
+				"nama":"Chicken Salami",
+				"deskripsi":"Savory donut sandwich featuring smoked chicken salami with mayonnaise, tomato sauce, fresh lettuce, sliced cheese, and sauteed zucchinis.",
+				"harga":10000,
+				"gambar":"Chicken-Salami.jpg"
+			},
+			{
+				"kategori":"jclub",
+				"nama":"Katsu",
+				"deskripsi":"Savory donut sandwich featuring crunchy fried chicken katsu, fresh lettuce, fresh tomatoes, and barbecue sauce.",
+				"harga":10000,
+				"gambar":"Katsu.jpg"
+			}
+	
+		],
 
-	],
-	"donat":[
-		{
-			"kategori":"donuts",
-			"nama":"Alcapone",
-			"deskripsi":"Donut dipped in white chocolate and topped with sliced toasted almonds.",
-			"harga":10000,
-			"gambar":"Alcapone.jpg"
-		},
-		{
-			"kategori":"donuts",
-			"nama":"Avocado Dicaprio",
-			"deskripsi":"Donut filled with avocado cream, dipped in avocado chocolate, and garnished with dark chocolate flakes.",
-			"harga":14000,
-			"gambar":"Avocado-Dicaprio.jpg"
-		},
-		{
-			"kategori":"donuts",
-			"nama":"Berry Spears",
-			"deskripsi":"Donut filled with whipped cream cheese, dipped in strawberry jam, and garnished with white chocolate flakes.",
-			"harga":15000,
-			"gambar":"Berry-Spears.jpg"
-		},
-		{
-			"kategori":"jclub",
-			"nama":"Cheezy Rich",
-			"deskripsi":"Sweet donut sandwich featuring whipped cream cheese and sliced cheese filling, topped with whipped cream and shredded cheese.",
-			"harga":17000,
-			"gambar":"Cheezy-Rich.jpg"
-		},
-		{
-			"kategori":"jclub",
-			"nama":"Chicken Salami",
-			"deskripsi":"Savory donut sandwich featuring smoked chicken salami with mayonnaise, tomato sauce, fresh lettuce, sliced cheese, and sauteed zucchinis.",
-			"harga":10000,
-			"gambar":"Chicken-Salami.jpg"
-		},
-		{
-			"kategori":"jclub",
-			"nama":"Katsu",
-			"deskripsi":"Savory donut sandwich featuring crunchy fried chicken katsu, fresh lettuce, fresh tomatoes, and barbecue sauce.",
-			"harga":10000,
-			"gambar":"Katsu.jpg"
-		}
-
-	]
-}
+		
+		"donat":[
+			
+			{
+				"kategori":"donuts",
+				"nama":"Alcapone",
+				"deskripsi":"Donut dipped in white chocolate and topped with sliced toasted almonds.",
+				"harga":10000,
+				"gambar":"Alcapone.jpg"
+			},
+			{
+				"kategori":"donuts",
+				"nama":"Avocado Dicaprio",
+				"deskripsi":"Donut filled with avocado cream, dipped in avocado chocolate, and garnished with dark chocolate flakes.",
+				"harga":14000,
+				"gambar":"Avocado-Dicaprio.jpg"
+			},
+			{
+				"kategori":"donuts",
+				"nama":"Berry Spears",
+				"deskripsi":"Donut filled with whipped cream cheese, dipped in strawberry jam, and garnished with white chocolate flakes.",
+				"harga":15000,
+				"gambar":"Berry-Spears.jpg"
+			},
+			{
+				"kategori":"jclub",
+				"nama":"Cheezy Rich",
+				"deskripsi":"Sweet donut sandwich featuring whipped cream cheese and sliced cheese filling, topped with whipped cream and shredded cheese.",
+				"harga":17000,
+				"gambar":"Cheezy-Rich.jpg"
+			},
+			{
+				"kategori":"jclub",
+				"nama":"Chicken Salami",
+				"deskripsi":"Savory donut sandwich featuring smoked chicken salami with mayonnaise, tomato sauce, fresh lettuce, sliced cheese, and sauteed zucchinis.",
+				"harga":10000,
+				"gambar":"Chicken-Salami.jpg"
+			},
+			{
+				"kategori":"jclub",
+				"nama":"Katsu",
+				"deskripsi":"Savory donut sandwich featuring crunchy fried chicken katsu, fresh lettuce, fresh tomatoes, and barbecue sauce.",
+				"harga":10000,
+				"gambar":"Katsu.jpg"
+			}
+	
+		]
+	}
+]
